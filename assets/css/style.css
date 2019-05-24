@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Reem+Kufi|Roboto:100,300,400,500,700&');
+
+/********************Header*************************/
+#header {
+    background-color: #f0597d;
+    color: #fafafa;
+    height: 100%;
+}
+
+#header nav a{
+    color: #fafafa;
+    transition: background-color 0.35s ease-in-out;
+}
+
+#header nav a:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 28px;
+}
+
+.banner-img {
+    background-image: url(../images/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+}
+
+body, html {
+  height: 100%;
+}
+
+.full-screen-banner {
+    height: calc(100vh - 68px);
+}
+
+.full-screen-banner h1{
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 52px;
+    animation: all 1s ease-in-out;
+    color:#fafafa;
+
+}
+.banner-text {
+    position: absolute;
+    bottom: 87px;
+    animation: left-appear 1.5s ease-in-out;
+    left: 30px;
+    
+}
+.overlay:after{
+  position: absolute;
+  content:" ";
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  display: block;
+  z-index:0;
+  background-color: rgba(0, 0, 0, 0.19);
+}
+
+@keyframes left-appear {
+  from {left: -800px;}
+  to {left:30px}
+}
+
+/********************Breif*************************/
