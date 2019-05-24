@@ -70,3 +70,32 @@ body, html {
 }
 
 /********************Breif*************************/
+.brief-text {
+    padding: 60px 50px;
+    background-color: #f2f2f2;
+}
+
+.brief-text h2{
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 38px;
+    text-transform: uppercase;
+}
+
+.brief-text p{
+    font-family: 'Roboto', sans-serif;
+    line-height: 28px;
+    color: #5d5d5d;
+}
+
+.brief-img {
+    background-image: url(../images/the-band.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (max-width:700px){
+    .brief-img {
+        height:350px;
+    }
+}
