@@ -20,7 +20,7 @@
     transition: background-color 0.35s ease-in-out;
 }
 
-#header nav a:hover{
+#header nav li a:hover{
     background-color: rgba(0, 0, 0, 0.1);
 }
 
@@ -157,3 +157,14 @@ body, html {
     margin-top: 17px;
     text-transform: uppercase;
 }
+
+#video {
+    max-height: 300px;
+    overflow: hidden;
+}
+#video video{
+    width: 100%;
+    position: absolute;
+    cursor: pointer;
+}
+
