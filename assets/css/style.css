@@ -121,13 +121,12 @@ body, html {
 }
 
 /********************Audio Clip*************************/
-#audio{
+#media{
     padding: 75px 0;
     position: relative;
     background-color: rgba(0,0,0,.3);
 }
-
-#audio::after {
+.audio::after {
     content: "";
     background-image: url(../images/music-key-background.jpg);
     opacity: 0.5;
@@ -158,13 +157,9 @@ body, html {
     text-transform: uppercase;
 }
 
-#video {
-    max-height: 300px;
-    overflow: hidden;
+.video {
+   margin-top: 25px;
 }
-#video video{
-    width: 100%;
-    position: absolute;
-    cursor: pointer;
-}
+
+
 
