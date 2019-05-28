@@ -2,7 +2,7 @@
 
 /********************Header*************************/
 #header {
-    background-color: #f0597d;
+    background-color: #b70a33;
     color: #fafafa;
     height: 100%;
 }
@@ -10,8 +10,8 @@
 #header .sticky-navbar {
     position: fixed;
     top: 0;
-    background-color: #f0597d;
-    z-index: 1;
+    background-color: #b70a33;
+    z-index: 10;
     width: 100%;
 }
 
@@ -120,11 +120,15 @@ body, html {
     }
 }
 
-/********************Audio Clip*************************/
+/********************Media*************************/
 #media{
     padding: 75px 0;
     position: relative;
     background-color: rgba(0,0,0,.3);
+}
+
+audio {
+    width:100%;
 }
 .audio::after {
     content: "";
@@ -161,5 +165,147 @@ body, html {
    margin-top: 25px;
 }
 
+/********************Events / TimeLine*************************/
+#events {
+    background-color:#fafafa;
+    overflow-x:hidden;
+}
+
+.bg-sample{
+    color: #efeded;
+    text-shadow: 20px 22px 24px #bdbbbb;
+    font-size: 280px;
+    text-align: center;
+}
+
+@media (max-width:570px) {
+    .bg-sample{
+     display:none;
+    }
 
 
+    .content-left {
+    right: -11% !important;
+    margin-top: 50px;
+    overflow: hidden;
+    }
+    .center-line {
+    border-left: 3px solid #dfdfdf;
+    position: absolute;
+    left: 36px;
+    height: 100%;
+    }
+    .content-right {
+    right: -11% !important;
+    margin-top: 50px;
+    overflow: hidden;
+    }
+    .content-left:after {
+    content: "\f104" !important;
+    top: 16px !important;;
+    left: 7px !important;
+    }
+    .timeline-left, .timeline-right{
+        position:relative;
+    }
+    #events .card-title {
+    font-size: 26px !important;
+    }
+    p.card-text {
+    line-height: 20px;
+    font-size: 0.9rem;
+    max-height: 90px;
+    overflow-y: hidden;
+    }
+}
+
+.mobile-text {
+    display:none;
+}
+.center-line {
+    border-left: 3px solid #dfdfdf;
+}
+
+#events .card {
+    border-width:4px;
+    z-index: 1;
+}
+.circle-timeline {
+    width: 30px;
+    height: 30px;
+    background-color: #b70a33;
+    border-radius: 15px;
+    left: -31px;
+    top: 58px;
+    position: relative;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+}
+#events .card-img-overlay {
+    background-color: rgba(0, 0, 0, 0.37);
+}
+
+#events .card-title {
+    text-shadow: 0px 0px 4px #000;
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 31px;
+}
+
+.card-info {
+    position: absolute;
+    bottom: 9px;
+    font-size: 13px;
+}
+
+#events .card .date{
+    margin:0 20px;
+}
+
+
+/********Events / Left Card*********/
+
+.content-left:after {
+    content:"\f105";
+    font-family:"Font Awesome 5 Free";
+    font-weight: 600;
+    color: #dfdfdf;
+    position: absolute;
+    top: 16px;
+    right: 7px;
+    font-size: 27px;
+    line-height: 15px;
+    z-index: 0;
+}
+.content-left {
+    right: -7%;
+    margin-top: 50px;
+    overflow:hidden;
+}
+
+/********Events / Right Card*********/
+
+.content-right:after {
+    content: "\f104";
+    font-family:"Font Awesome 5 Free";
+    font-weight: 600;
+    color: #dfdfdf;
+    position: absolute;
+    top: 16px;
+    left: 7px;
+    font-size: 27px;
+    line-height: 15px;
+    z-index: 0;
+}
+.content-right {
+    right: 7%;
+    margin-top: 50px;
+    overflow:hidden;
+}
+
+h2 {
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 65px;
+    text-align: center;
+    padding: 30px 0;
+}
