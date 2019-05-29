@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Reem+Kufi|Roboto:100,300,400,500,700&');
 
+html{
+    scroll-behavior: smooth;
+}
+
 /********************Header*************************/
 #header {
     background-color: #b70a33;
@@ -91,7 +95,7 @@ body, html {
 
 /********************Breif*************************/
 .brief-text {
-    padding: 60px 85px;
+    padding: 80px 85px;
     background-color: #e0e0e0;
 }
 
@@ -118,6 +122,10 @@ body, html {
     .brief-img {
         height:350px;
     }
+    .brief-text {
+    padding: 60px 28px;
+    text-align: center;
+}
 }
 
 /********************Media*************************/
@@ -125,6 +133,13 @@ body, html {
     padding: 75px 0;
     position: relative;
     background-color: rgba(0,0,0,.3);
+}
+
+#media h2{
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 65px;
+    padding:0 0 30px 0;
+    text-align:center;
 }
 
 audio {
@@ -175,6 +190,13 @@ audio {
     padding-bottom:60px;
 }
 
+#events h2 {
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 65px;
+    text-align: center;
+    padding: 70px 0 18px 0;
+}
+
 .bg-sample{
     color: #efeded;
     text-shadow: 20px 22px 24px #bdbbbb;
@@ -186,7 +208,6 @@ audio {
     .bg-sample{
      display:none;
     }
-
 
     .content-left {
     right: -11% !important;
@@ -308,16 +329,9 @@ audio {
     overflow:hidden;
 }
 
-#events h2 {
-    font-family: 'Reem Kufi', sans-serif;
-    font-size: 65px;
-    text-align: center;
-    padding: 30px 0;
-}
-
 /***************** Testimonial **********************/
 
-#about h2 {
+#social h2 {
     font-family: 'Reem Kufi', sans-serif;
     font-size: 50px;
     text-align: center;
@@ -326,7 +340,7 @@ audio {
 .testimonial {
     background-color:#434f53;
     text-align:center;
-    padding:50px 0;
+    padding:70px 0;
     color:#fff;
 }
 
@@ -341,6 +355,12 @@ audio {
     font-weight: 200;
 }
 
+@media (max-width:700px){
+    .testimonial p {
+    padding:0 20px;
+    }
+}
+
 /***************** Social Media  **********************/
 
 .bg-red {
@@ -349,30 +369,30 @@ audio {
 .bg-light-red {
     background-color: #ce0d3b;
 }
-.social {}
-.social-block {
+.social-links {}
+.social-links-block {
     text-align: center;
     vertical-align: middle;
     color: #fff;
 }
 
-.social-block a {
+.social-links-block a {
     color: #fff;
     display: block;
     height: 100%;
-    padding: 19% 0;
+    padding: 22% 0;
     box-sizing: border-box;
 }
 
-.social-block a:hover{
+.social-links-block a:hover{
    text-decoration:none;
 }
 
-.social-block a i {
+.social-links-block a i {
     font-size: 64px;
 }
 
-.social-block a span {
+.social-links-block a span {
     font-family: 'Roboto', sans-serif;
     display: block;
     font-weight: 200;
@@ -381,4 +401,62 @@ audio {
     margin: auto;
     margin-top: 18px;
     
+}
+
+@media (max-width:1024px) and (min-width:700px){
+    .social-links-block a {
+    padding: 35% 0;
+    }
+}
+
+/***************** Contact form **********************/
+
+#contact {
+    background-image: url(../images/contact-bg.jpg);
+    background-repeat: no-repeat;
+    background-color: #f2f1ed;
+    background-position: left center;
+}
+
+#contact input, #contact textarea{
+    font-family: 'Roboto', sans-serif;
+    background-color: transparent;
+    margin: 20px 0;
+    border-color: #dc3545;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+#contact h2 {
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 50px;
+    padding-bottom: 15px;
+}
+
+#contact form{
+    margin-bottom: 50px;
+}
+
+@media (max-width:700px){
+    #contact .row{
+        background-color: rgba(255, 255, 255, 0.65);
+    }
+    #contact h2 {
+    text-align:center;
+}
+}
+
+/***************** Footer **********************/
+
+footer {
+   background-color:#434f53;
+   
+}
+
+footer p{
+    font-family: 'Roboto', sans-serif;
+    color: #fafafa;
+    margin-top: 15px;
+    font-weight: 300;
+    font-size: 15px;
 }
