@@ -4,17 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <!-- CSS Animation--> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
+    
+    <!-- Bootstrap CDN--> 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+    <!-- Font Awesome CDN-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    
+    <!-- Hover.css CDN-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
+    
+    <!-- Costme StyleSheet-->
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-    <title>Home Page</title>
+    
+    <title>Home Page | The Band</title>
 </head>
+
 <body>
+    <!-- Hearder start-->
     <header id="header">
         <div class="row m-0 sticky-navbar">
             <div class="col">
@@ -49,6 +62,7 @@
                 </nav>
             </div>
         </div>
+        <!-- Full Screen Banner Image -->
         <div class="row m-0 full-screen-banner">
             <div class="col banner-img overlay">
                 <div class="banner-text">
@@ -58,6 +72,9 @@
             </div>
         </div>
     </header>
+    <!-- Hearder end-->
+    
+    <!-- About section start-->
     <section id="about">
         <div class="row m-0 row-table">
             <div class="col-md-6 brief-text">
@@ -71,13 +88,20 @@
                 Eventually, we’ve come to notice a few things about our music – it literally reflects what kind of a mood or life situation either of us was at the time of its recording.
                 We want to share these moments with you!</p>
             </div>
+            <!-- About image as a background image-->
             <div class="col-md-6 brief-img"></div>
         </div>
     </section>
+    <!-- About section end-->
+    
+    <!-- Media section start-->
     <section id="media">
         <div class="container">
             <h2>Media</h2>
+            
+            <!-- Audio media -->
             <div class="row audio">
+                <!-- Audio media block Item -->
                 <div class="col-md-4">
                     <div class="row audio-clip m-0">
                         <div class="col-12 p-0">
@@ -92,6 +116,7 @@
                         </div>
                     </div>
                 </div>
+                <!-- Audio media block Item -->
                 <div class="col-md-4">
                     <div class="row audio-clip m-0">
                         <div class="col-12 p-0">
@@ -106,6 +131,7 @@
                         </div>
                     </div>
                 </div>
+                <!-- Audio media block item -->
                 <div class="col-md-4">
                     <div class="row audio-clip m-0">
                         <div class="col-12 p-0">
@@ -121,6 +147,19 @@
                     </div>
                 </div>
             </div>
+            <!-- Audio media end-->
+            
+            <!-- Links to iTunes and Spotify -->
+            <div class="row download-tracks">
+                <div class="col text-right">
+                    <a href="https://www.apple.com/ca/itunes/" target="_blank" class="btn btn-danger"><i class="fab fa-itunes-note mr-2"></i>Dowload audio from iTunes</a>
+                </div>
+                <div class="col"> 
+                    <a href="https://www.spotify.com/ca-en/" target="_blank" class="btn btn-danger"><i class="fab fa-spotify mr-2"></i>Dowload audio from Spotify</a>
+                </div>
+            </div>
+            
+            <!-- Video media start-->
             <div class="row video">
                 <div class="col">
                     <video  controls loop width="100%">
@@ -128,128 +167,154 @@
                     </video>
                 </div>
             </div>
+            <!-- Video media end-->
         </div>
     </section>
+    <!-- Media section end-->
+    
+    <!-- Events section start-->
     <section id="events">
             <h2>Events</h2>
             <div class="row row-table">
             <div class="col">
-              <div class="row timeline-left">
-                    <div class="col-sm-5 col-10 content-left hvr-forward">
-                        <div class="card text-white">
-                          <img class="card-img" src="assets/images/events1.jpg" alt="" >
-                          <div class="card-img-overlay ">
-                            <h5 class="card-title">Annual Spring Party</h5>
-                            <p class="card-text">Spring is when you can say "Aloha" to the sun. Welcome the return of warm weather and beautiful days with The Band themed party.</p>
-                            <p class="card-text card-info">
-                                <span class="location"><i class="fas fa-map-marker-alt mr-1"></i>Toronro , ON</span>
-                                <span class="card-text date"><i class="far fa-calendar-alt mr-1"></i>28 APR 2019</span>
-                            </p>
-                          </div>
-                          
+                <!-- timeline left block -->
+                <div class="row timeline-left">
+                        <div class="col-sm-5 col-10 content-left hvr-forward">
+                            <div class="card text-white">
+                              <img class="card-img" src="assets/images/events1.jpg" alt="" >
+                              <div class="card-img-overlay ">
+                                <h5 class="card-title">Annual Spring Party</h5>
+                                <p class="card-text">Spring is when you can say "Aloha" to the sun. Welcome the return of warm weather and beautiful days with The Band themed party.</p>
+                                <p class="card-text card-info">
+                                    <span class="location"><i class="fas fa-map-marker-alt mr-1"></i>Toronro , ON</span>
+                                    <span class="card-text date"><i class="far fa-calendar-alt mr-1"></i>30 MAY 2019</span>
+                                </p>
+                              </div>
+                              
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-sm-1 offset-sm-1 col-2 center-line">
-                          <div class="circle-timeline"><i class="fas fa-heart"></i></div>
-                    </div>
-                    <div class="col-sm-5 ">
-                      <div class="bg-sample"><i class="fas fa-compact-disc"></i></div>
-                    </div>
-              </div>
-              <div class="row timeline-right">
-                  <div class="col-sm-5">
-                      <div class="bg-sample">
-                          <i class="fas fa-guitar"></i>
+                        <div class="col-sm-1 offset-sm-1 col-2 center-line">
+                              <div class="circle-timeline"><i class="fas fa-heart"></i></div>
+                        </div>
+                        <div class="col-sm-5 ">
+                          <div class="bg-sample"><i class="fas fa-compact-disc"></i></div>
+                        </div>
+                  </div>
+                  
+                  <!-- timeline right block -->
+                <div class="row timeline-right">
+                      <div class="col-sm-5">
+                          <div class="bg-sample">
+                              <i class="fas fa-guitar"></i>
+                          </div>
+                          </div>
+                      <div class="col-sm-1 offset-sm-1 col-2 center-line">
+                          <div class="circle-timeline"><i class="fas fa-thumbs-up"></i></div>
                       </div>
-                      </div>
-                  <div class="col-sm-1 offset-sm-1 col-2 center-line">
-                      <div class="circle-timeline"><i class="fas fa-thumbs-up"></i></div>
-                  </div>
-                  <div class="col-sm-5 col-10 content-right hvr-backward">
-                        <div class="card text-white">
-                          <img class="card-img" src="assets/images/events1.jpg" alt="">
-                          <div class="card-img-overlay">
-                            <h5 class="card-title">Annual Spring Party</h5>
-                            <p class="card-text">Spring is when you can say "Aloha" to the sun. Welcome the return of warm weather and beautiful days with The Band themed party.</p>
-                            <p class="card-text card-info">
-                                <span class="location"><i class="fas fa-map-marker-alt mr-1"></i>Toronro , ON</span>
-                                <span class="card-text date"><i class="far fa-calendar-alt mr-1"></i>28 APR 2019</span>
-                            </p>
-                          </div>
-                        </div>
-                  </div>
-              </div>
-              <div class="row timeline-left">
-                  <div class="col-sm-5 col-10 content-left hvr-forward">
-                        <div class="card text-white">
-                          <img class="card-img" src="assets/images/events1.jpg" alt="">
-                          <div class="card-img-overlay">
-                            <h5 class="card-title">Annual Spring Party</h5>
-                            <p class="card-text">Spring is when you can say "Aloha" to the sun. Welcome the return of warm weather and beautiful days with The Band themed party.</p>
-                            <p class="card-text card-info">
-                                <span class="location"><i class="fas fa-map-marker-alt mr-1"></i>Toronro , ON</span>
-                                <span class="card-text date"><i class="far fa-calendar-alt mr-1"></i>28 APR 2019</span>
-                            </p>
-                          </div>
-                        </div>
-                  </div>
-                  <div class="col-sm-1 offset-sm-1 col-2 center-line">
-                      <div class="circle-timeline"><i class="fas fa-star"></i></div>
-                  </div>
-                  <div class="col-sm-5">
-                      <div class="bg-sample">
-                          <i class="fas fa-magic"></i>
-                      </div>      
-                  </div>
-              </div>
-              <div class="row timeline-right">
-                  <div class="col-sm-5">
-                      <div class="bg-sample">
-                          <i class="fas fa-music"></i>
+                      <div class="col-sm-5 col-10 content-right hvr-backward">
+                            <div class="card text-white">
+                              <img class="card-img" src="assets/images/events2.jpg" alt="">
+                              <div class="card-img-overlay">
+                                <h5 class="card-title">City Winery NY</h5>
+                                <p class="card-text">A good song, like a fine wine, gets better with age. You can find both at the City Winery.</p>
+                                <p class="card-text card-info">
+                                    <span class="location"><i class="fas fa-map-marker-alt mr-1"></i>USA , NY</span>
+                                    <span class="card-text date"><i class="far fa-calendar-alt mr-1"></i>05 MAY 2019</span>
+                                </p>
+                              </div>
+                            </div>
                       </div>
                   </div>
-                  <div class="col-sm-1 offset-sm-1 col-2 center-line">
-                      <div class="circle-timeline"><i class="fas fa-cocktail"></i></div>
+                  
+                  <!-- timeline left block -->
+                <div class="row timeline-left">
+                      <div class="col-sm-5 col-10 content-left hvr-forward">
+                            <div class="card text-white">
+                              <img class="card-img" src="assets/images/events3.jpg" alt="">
+                              <div class="card-img-overlay">
+                                <h5 class="card-title">HIDEOUT Party</h5>
+                                <p class="card-text">Running The band debut album ‘Love to the moon and back’ released to a sweep of praise from music journalists all over the world.</p>
+                                <p class="card-text card-info">
+                                    <span class="location"><i class="fas fa-map-marker-alt mr-1"></i>Toronro , ON</span>
+                                    <span class="card-text date"><i class="far fa-calendar-alt mr-1"></i>15 APR 2019</span>
+                                </p>
+                              </div>
+                            </div>
+                      </div>
+                      <div class="col-sm-1 offset-sm-1 col-2 center-line">
+                          <div class="circle-timeline"><i class="fas fa-star"></i></div>
+                      </div>
+                      <div class="col-sm-5">
+                          <div class="bg-sample">
+                              <i class="fas fa-magic"></i>
+                          </div>      
+                      </div>
                   </div>
-                  <div class="col-sm-5 col-10 content-right hvr-backward">
-                        <div class="card text-white">
-                          <img class="card-img" src="assets/images/events1.jpg" alt="">
-                          <div class="card-img-overlay">
-                            <h5 class="card-title">Annual Spring Party</h5>
-                            <p class="card-text">Spring is when you can say "Aloha" to the sun. Welcome the return of warm weather and beautiful days with The Band themed party.</p>
-                            <p class="card-text card-info">
-                                <span class="location"><i class="fas fa-map-marker-alt mr-1"></i>Toronro , ON</span>
-                                <span class="card-text date"><i class="far fa-calendar-alt mr-1"></i>28 APR 2019</span>
-                            </p>
+                  
+                  <!-- timeline right block -->
+                <div class="row timeline-right">
+                      <div class="col-sm-5">
+                          <div class="bg-sample">
+                              <i class="fas fa-music"></i>
                           </div>
-                        </div>
+                      </div>
+                      <div class="col-sm-1 offset-sm-1 col-2 center-line">
+                          <div class="circle-timeline"><i class="fas fa-cocktail"></i></div>
+                      </div>
+                      <div class="col-sm-5 col-10 content-right hvr-backward">
+                            <div class="card text-white">
+                              <img class="card-img" src="assets/images/events4.jpg" alt="">
+                              <div class="card-img-overlay">
+                                <h5 class="card-title">Budweiser Stage</h5>
+                                <p class="card-text">The Budweiser Stage, previously known as the Molson Canadian Amphitheatre, is a concert venue in Toronto, Ontario, Canada.</p>
+                                <p class="card-text card-info">
+                                    <span class="location"><i class="fas fa-map-marker-alt mr-1"></i>Toronro , ON</span>
+                                    <span class="card-text date"><i class="far fa-calendar-alt mr-1"></i>28 MAY 2019</span>
+                                </p>
+                              </div>
+                            </div>
+                      </div>
                   </div>
-              </div>
             </div>
         </div>
     </section>
+    <!-- Events section end-->
+    
+    <!-- Social section start-->
     <section id="social">
         <div class="row m-0 row-table">
+            
+            <!-- testimonial start -->
             <div class="col-md-6 testimonial">
                 <h2>Testimonials</h2>
+                
+                <!-- Carousel -->
                 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                       <div class="carousel-inner">
+                          
+                        <!-- carousel block item -->
                         <div class="carousel-item active">
                             <img src="assets/images/testimonial1.jpg" width="200px" height="200px" class=" mx-auto d-block rounded-circle" alt="...">
                           <h5>Mark Roger</h5>
                           <p>The Band was excellent! Professional, prompt, and very talented. </p>
                         </div>
+                        
+                        <!-- carousel block item -->
                         <div class="carousel-item ">
                             <img src="assets/images/testimonial2.jpg" width="200px" height="200px" class=" mx-auto d-block rounded-circle" alt="...">
                           <h5>Sarah Harbor</h5>
                           <p>They were great! Everyone had a fantastic time and really enjoyed their music!</p>
                         </div>
+                        
+                        <!-- carousel block item -->
                         <div class="carousel-item ">
                             <img src="assets/images/testimonial3.jpg" width="200px" height="200px" class=" mx-auto d-block rounded-circle" >
                           <h5>Lisa Ritteg</h5>
                           <p>Awesome band! They kept the party going the whole night. </p>
                         </div>
                       </div>
+                      
+                      <!-- carousel controls -->
                       <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="sr-only">Previous</span>
@@ -260,8 +325,12 @@
                       </a>
                 </div>
             </div>
+            <!-- testimonial end -->
+            
+            <!-- Social media links start -->
             <div class="col-md-6 social-links">
                 <div class="row">
+                    <!-- Social media item /facebook/ -->
                     <div class="col-6 social-links-block bg-red">
                         <a href="#" target="_blank" class="hvr-grow">
                             <i class="fab fa-facebook-f"></i>
@@ -269,6 +338,8 @@
                             <span>Descover our latest, Know More.</span>
                         </a>
                     </div>
+                    
+                    <!-- Social media item /instagram/ -->
                     <div class="col-6 social-links-block bg-light-red">
                         <a href="#" target="_blank" class="hvr-grow">
                             <i class="fab fa-instagram"></i>
@@ -277,7 +348,9 @@
                         </a>
                     </div>
                 </div>
+                
                 <div class="row">
+                    <!-- Social media item /youtube/ -->
                     <div class="col-6 social-links-block bg-light-red">
                         <a href="#" target="_blank" class="hvr-grow">
                             <i class="fab fa-youtube"></i>
@@ -285,6 +358,7 @@
                             <span>Broadcast reach your heart</span>
                         </a>
                     </div>
+                    <!-- Social media item /twitter/ -->
                     <div class="col-6 social-links-block bg-red">
                         <a href="#" target="_blank" class="hvr-grow">
                             <i class="fab fa-twitter"></i>
@@ -294,8 +368,12 @@
                     </div>
                 </div>
             </div>
+            <!-- Social media links end -->
         </div>
     </section>
+    <!-- Social section end -->
+    
+    <!-- Contact section start-->
     <section id="contact">
         <div class="row m-0">
             <div class="col-10 offset-1 col-md-6 offset-md-5 pt-5">
@@ -311,12 +389,16 @@
             </div>
         </div>
     </section>
+    <!-- Contact section end-->
+    
+    <!-- Header section start-->
     <footer>
         <div class="row m-0">
             <div class="col text-center">
-                <p>The Band © · Designed by Mais Ammaneh </p>
+                <p>The Band · Designed by Mais Ammaneh </p>
             </div>
         </div>
     </footer>
+    <!-- Header section end-->
 </body>
 </html>
