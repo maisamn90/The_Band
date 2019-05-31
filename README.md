@@ -28,7 +28,7 @@ Features
 --------
 In further discuss the features, I will speak in details what each section will contain.
 
-**The website will have 6 sections in additional to header and footer**
+** The website will have 6 sections in additional to header and footer **
 > 1.	Banner Image of the latest event and slogan of the band
 > 2.	Sticky header with navbar and logo 
 > 3.	About section gives a brief about the band history and journey 
@@ -37,7 +37,7 @@ In further discuss the features, I will speak in details what each section will 
 > 6.	Social section has a slider on fans reviews and testimonials for social media and social media links for (Facebook, twitter, Instagram and YouTube) 
 > 7.	Contact form for directly contact the band for hiring.
 
-###Existing Features
+### Existing Features
 
 I used html semantics for the structure in the web-page I made the navigation bar stick in the with links to each section to reach it easily so the user will never be lost when he going around the web page. The banner image will be full screen image in all screen sizes. In media section will have audio samples and latest released with images of the albums and option for download audio form Spotify and iTunes.  Also, there is a video clip of the band. 
 
@@ -76,7 +76,7 @@ Credits
 >--	 [www.freepik.com](www.freepik.com) 
 >--	[www.unsplash.com](www.unsplash.com)
 
-###Acknowledgements
+### Acknowledgements
 I received inspiration for this project from Abhay Barthwal 
 
 ----------
