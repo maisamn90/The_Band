@@ -10,6 +10,9 @@ There is events section to promote dates and locations of upcoming event with im
 
 ----------
 
+Demo
+---------
+See the demo in gitHub Page : [https://maisamn90.github.io/The_Band/](The_Band)
 
 UX
 ---------

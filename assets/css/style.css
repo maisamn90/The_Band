@@ -193,6 +193,12 @@ audio {
    margin-top: 25px;
 }
 
+@media (max-width:1024px) and (min-width:700px){
+    .audio-title {
+    min-height: 53px;
+    }
+}
+
 /********************Events / TimeLine*************************/
 #events {
     background-color:#fafafa;
