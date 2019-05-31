@@ -28,7 +28,8 @@ Features
 --------
 In further discuss the features, I will speak in details what each section will contain.
 
-** The website will have 6 sections in additional to header and footer **
+#### The website will have 6 sections in additional to header and footer
+
 > 1.	Banner Image of the latest event and slogan of the band
 > 2.	Sticky header with navbar and logo 
 > 3.	About section gives a brief about the band history and journey 
